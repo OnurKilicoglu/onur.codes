@@ -1,0 +1,55 @@
+﻿@model KisiselPortfoy.Core.Entities.Project
+@{
+    ViewData["Title"] = "Proje Düzenle";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Proje Düzenle</h2>
+<hr />
+<div class="row">
+    <div class="col-md-7 col-lg-6">
+        <form asp-action="Edit" enctype="multipart/form-data" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label"></label>
+                <input asp-for="Title" class="form-control" required />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3" required></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mevcut Kapak Görseli</label><br />
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="Proje Görseli" 
+                    style="max-width:130px;max-height:80px;border-radius:8px;box-shadow:0 1px 4px #ccc;">
+                }
+                <div class="mt-2">
+                    <label class="form-label">Yeni Görsel (değiştirmek için):</label>
+                    <input  type="file" name="imageFile" class="form-control" accept=".jpg,.jpeg,.png" />
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mevcut Kod Dosyası</label><br />
+                @if (!string.IsNullOrEmpty(Model.CodeFileUrl))
+                {
+                    <a href="@Model.CodeFileUrl" target="_blank" class="btn btn-sm btn-outline-info">İndir</a>
+                }
+                <div class="mt-2">
+                    <label class="form-label">Yeni Kod Dosyası (RAR/ZIP):</label>
+                    <input  type="file" name="codeFile" class="form-control" accept=".rar,.zip" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary px-4">Kaydet</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

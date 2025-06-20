@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<div class="container-fluid px-0">
+    <div class="row">
+        <div class="col-12">
+            <div class="bg-white rounded-3 shadow-sm p-4 mt-4 mb-4">
+                <h2 class="mb-2" style="font-weight:bold;">👋 Hoşgeldin, @Context.Session.GetString("AdminUser")</h2>
+                <p class="mb-0 text-muted">
+                    Burası yönetim panelinin ana sayfası.<br>
+                    Sol menüden projelerini ekleyebilir, düzenleyebilir ya da silebilirsin.<br>
+                    Yeni özellikler eklemek için yukarıdaki menüleri kullanabilirsin.
+                </p>
+            </div>
+
+            <!-- Bilgi kutuları -->
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="p-3 bg-primary text-white rounded shadow-sm text-center">
+                        <div style="font-size:2rem;">🚀</div>
+                        <div style="font-size:1.12rem;">Toplam Proje</div>
+                        <b style="font-size:2rem;">@ViewBag.TotalProjects</b>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-success text-white rounded shadow-sm text-center">
+                        <div style="font-size:2rem;">📦</div>
+                        <div style="font-size:1.12rem;">Yüklenen Dosyalar</div>
+                        <b style="font-size:2rem;">@ViewBag.TotalFiles</b>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-warning text-white rounded shadow-sm text-center">
+                        <div style="font-size:2rem;">🕒</div>
+                        <div style="font-size:1.12rem;">Son Giriş</div>
+                        <b style="font-size:1.25rem;">@DateTime.Now.ToString("dd.MM.yyyy HH:mm")</b>
+                    </div>
+                </div>
+            </div>
+            <!-- /Bilgi kutuları -->
+
+        </div>
+    </div>
+</div>

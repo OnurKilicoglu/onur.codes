@@ -1,0 +1,41 @@
+﻿@model KisiselPortfoy.Core.Entities.Project
+@{
+    ViewData["Title"] = "Yeni Proje Ekle";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Yeni Proje Ekle</h2>
+<hr />
+<div class="row">
+    <div class="col-md-7 col-lg-6">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label"></label>
+                <input asp-for="Title" class="form-control" required />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3" required></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Proje Kapak Görseli</label>
+                <input type="file" name="ImageUrl" class="form-control" accept=".jpg,.jpeg,.png" required />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Kod Dosyası (RAR/ZIP)</label>
+                <input type="file" name="codeFile" class="form-control" accept=".rar,.zip" required />
+                <span asp-validation-for="CodeFileUrl" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-success px-4">Kaydet</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

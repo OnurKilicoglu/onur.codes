@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KisiselPortfoy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KisiselPortfoy.gfqpufn016.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\2d258db3-6e3c-46d4-aac8-d8f947befc3c.jpg",
+      "PackagePath": "staticwebassets\\images\\2d258db3-6e3c-46d4-aac8-d8f947befc3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\36291abf-7956-4328-a077-e3556bed28e8.jpg",
+      "PackagePath": "staticwebassets\\images\\36291abf-7956-4328-a077-e3556bed28e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\45a49e02-1e38-402f-9f18-e7d9d043292f.jpg",
+      "PackagePath": "staticwebassets\\images\\45a49e02-1e38-402f-9f18-e7d9d043292f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\50ed58c2-5850-4aa9-a9b3-e59e03392a19.jpg",
+      "PackagePath": "staticwebassets\\images\\50ed58c2-5850-4aa9-a9b3-e59e03392a19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\5c695637-3200-46a3-8b61-cee307b41870.png",
+      "PackagePath": "staticwebassets\\images\\5c695637-3200-46a3-8b61-cee307b41870.png"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\64595d30-648e-42b1-9f9e-c11165a0eb4f.jpg",
+      "PackagePath": "staticwebassets\\images\\64595d30-648e-42b1-9f9e-c11165a0eb4f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\Profile\\profile_1405b2a1-c5d0-442c-b44e-828f78ec3b78.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\profile_1405b2a1-c5d0-442c-b44e-828f78ec3b78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\Profile\\profile_8dcfc617-631e-474f-82c6-d59514b33308.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\profile_8dcfc617-631e-474f-82c6-d59514b33308.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\b7561f2b-d6b0-42cd-8b5b-8e5d257d92b2.jpg",
+      "PackagePath": "staticwebassets\\images\\b7561f2b-d6b0-42cd-8b5b-8e5d257d92b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\hero_7d73a0a1-2418-481c-aded-f2e3bed47611.png",
+      "PackagePath": "staticwebassets\\images\\hero_7d73a0a1-2418-481c-aded-f2e3bed47611.png"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\hero_9b61de3f-e776-413b-938c-c3287da67318.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_9b61de3f-e776-413b-938c-c3287da67318.jpg"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\images\\hero_c681201b-ee3d-4ef7-8d2e-084a1484962f.png",
+      "PackagePath": "staticwebassets\\images\\hero_c681201b-ee3d-4ef7-8d2e-084a1484962f.png"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\04c9901b-3c23-43a6-bef4-f3f5174cf14c.rar",
+      "PackagePath": "staticwebassets\\uploads\\04c9901b-3c23-43a6-bef4-f3f5174cf14c.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\12e2c36d-c371-4b0b-b01f-f592ad0352c3.zip",
+      "PackagePath": "staticwebassets\\uploads\\12e2c36d-c371-4b0b-b01f-f592ad0352c3.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\189587bc-81c7-47a6-80fa-4a5da898bc55.rar",
+      "PackagePath": "staticwebassets\\uploads\\189587bc-81c7-47a6-80fa-4a5da898bc55.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\1aed3019-660d-4b66-b9c2-68aae484a3c0.zip",
+      "PackagePath": "staticwebassets\\uploads\\1aed3019-660d-4b66-b9c2-68aae484a3c0.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\2c78b29c-bfbe-4b12-9731-5b481846c9d9.zip",
+      "PackagePath": "staticwebassets\\uploads\\2c78b29c-bfbe-4b12-9731-5b481846c9d9.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\30d62c53-818a-4ef2-a171-11def1bf8644.rar",
+      "PackagePath": "staticwebassets\\uploads\\30d62c53-818a-4ef2-a171-11def1bf8644.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\43b10303-dc9b-4fd1-b11f-e566ba04f2df.zip",
+      "PackagePath": "staticwebassets\\uploads\\43b10303-dc9b-4fd1-b11f-e566ba04f2df.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\4a04b0bd-9567-4673-b412-4f73c20cf8f2.zip",
+      "PackagePath": "staticwebassets\\uploads\\4a04b0bd-9567-4673-b412-4f73c20cf8f2.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\53ed5c2b-6d35-4d36-8039-b7502b080a65.zip",
+      "PackagePath": "staticwebassets\\uploads\\53ed5c2b-6d35-4d36-8039-b7502b080a65.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\68ad2212-07a7-4cd9-8934-5725ae6d49b2.rar",
+      "PackagePath": "staticwebassets\\uploads\\68ad2212-07a7-4cd9-8934-5725ae6d49b2.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\78181ea1-2ef1-4e50-ae37-3d688cc75d57.rar",
+      "PackagePath": "staticwebassets\\uploads\\78181ea1-2ef1-4e50-ae37-3d688cc75d57.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\94fb575b-bb65-40aa-bddb-d1528bd68674.rar",
+      "PackagePath": "staticwebassets\\uploads\\94fb575b-bb65-40aa-bddb-d1528bd68674.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\9df38cbb-e510-42b5-8dc1-27fa5d0a8313.zip",
+      "PackagePath": "staticwebassets\\uploads\\9df38cbb-e510-42b5-8dc1-27fa5d0a8313.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\ab38811c-18be-4595-82f6-993a49e253b0.rar",
+      "PackagePath": "staticwebassets\\uploads\\ab38811c-18be-4595-82f6-993a49e253b0.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\baae71c1-f561-47f6-8352-55ebc19a7b47.rar",
+      "PackagePath": "staticwebassets\\uploads\\baae71c1-f561-47f6-8352-55ebc19a7b47.rar"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\c445bf5a-b4c9-43ef-95b6-7d1f5a912b95.zip",
+      "PackagePath": "staticwebassets\\uploads\\c445bf5a-b4c9-43ef-95b6-7d1f5a912b95.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\e5dfc17b-c839-4c10-b749-f8b5dcaeeba6.zip",
+      "PackagePath": "staticwebassets\\uploads\\e5dfc17b-c839-4c10-b749-f8b5dcaeeba6.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\f2790371-6766-4ce2-bbb1-7919cf87febd.zip",
+      "PackagePath": "staticwebassets\\uploads\\f2790371-6766-4ce2-bbb1-7919cf87febd.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\f95107e4-d70a-4871-84f4-0747e9ca155a.zip",
+      "PackagePath": "staticwebassets\\uploads\\f95107e4-d70a-4871-84f4-0747e9ca155a.zip"
+    },
+    {
+      "Id": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\uploads\\ff4ff0da-9904-47f3-95e7-3233b08c3a2e.zip",
+      "PackagePath": "staticwebassets\\uploads\\ff4ff0da-9904-47f3-95e7-3233b08c3a2e.zip"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KisiselPortfoy.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KisiselPortfoy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.KisiselPortfoy.props",
+      "PackagePath": "build\\KisiselPortfoy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.KisiselPortfoy.props",
+      "PackagePath": "buildMultiTargeting\\KisiselPortfoy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.KisiselPortfoy.props",
+      "PackagePath": "buildTransitive\\KisiselPortfoy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

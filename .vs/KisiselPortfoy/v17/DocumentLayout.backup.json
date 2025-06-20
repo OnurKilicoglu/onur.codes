@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|c:\\users\\onurk\\source\\repos\\kisiselportfoy\\kisiselportfoy\\views\\home\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|solutionrelative:kisiselportfoy\\views\\home\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|c:\\users\\onurk\\source\\repos\\kisiselportfoy\\kisiselportfoy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|solutionrelative:kisiselportfoy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|c:\\users\\onurk\\source\\repos\\kisiselportfoy\\kisiselportfoy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B8B41BA7-293C-46AA-8051-85D86647765B}|KisiselPortfoy\\KisiselPortfoy.csproj|solutionrelative:kisiselportfoy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "KisiselPortfoy\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "KisiselPortfoy\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T15:07:21.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\Views\\Home\\ProjectDetails.cshtml",
+              "RelativeDocumentMoniker": "KisiselPortfoy\\Views\\Home\\ProjectDetails.cshtml",
+              "ToolTip": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\Views\\Home\\ProjectDetails.cshtml*",
+              "RelativeToolTip": "KisiselPortfoy\\Views\\Home\\ProjectDetails.cshtml*",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T15:07:12.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "KisiselPortfoy\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\onurk\\source\\repos\\KisiselPortfoy\\KisiselPortfoy\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "KisiselPortfoy\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-19T15:07:08.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

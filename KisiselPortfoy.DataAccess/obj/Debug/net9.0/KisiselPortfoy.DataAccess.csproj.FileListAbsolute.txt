@@ -1,0 +1,17 @@
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.DataAccess.deps.json
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.DataAccess.runtimeconfig.json
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.DataAccess.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.DataAccess.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.Core.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\bin\Debug\net9.0\KisiselPortfoy.Core.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.csproj.AssemblyReference.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.AssemblyInfoInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.AssemblyInfo.cs
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselP.7E80A615.Up2Date
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\refint\KisiselPortfoy.DataAccess.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\KisiselPortfoy.DataAccess.genruntimeconfig.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.DataAccess\obj\Debug\net9.0\ref\KisiselPortfoy.DataAccess.dll

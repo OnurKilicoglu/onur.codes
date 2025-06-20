@@ -1,0 +1,17 @@
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.Business.deps.json
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.Business.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.Business.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.Core.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.DataAccess.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.Core.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\bin\Debug\net9.0\KisiselPortfoy.DataAccess.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.csproj.AssemblyReference.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.AssemblyInfoInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.AssemblyInfo.cs
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.csproj.CoreCompileInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselP.FF979EDB.Up2Date
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\refint\KisiselPortfoy.Business.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\KisiselPortfoy.Business.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Business\obj\Debug\net9.0\ref\KisiselPortfoy.Business.dll

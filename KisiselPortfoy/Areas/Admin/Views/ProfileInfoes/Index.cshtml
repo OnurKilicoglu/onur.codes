@@ -1,0 +1,78 @@
+﻿@model IEnumerable<KisiselPortfoy.Core.Entities.ProfileInfo>
+
+@{
+    ViewData["Title"] = "Profil Bilgileri";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Profil Bilgileri</h2>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Yeni Kayıt
+    </a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered align-middle bg-white shadow-sm rounded" style="min-width:1100px;">
+        <thead class="table-light">
+            <tr>
+                <th>Fotoğraf</th>
+                <th>Ad Soyad</th>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Uzmanlıklar</th>
+                <th>Deneyim</th>
+                <th>Hedefler</th>
+                <th>E-posta</th>
+                <th>Instagram</th>
+                <th style="width:180px;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PhotoUrl))
+                        {
+                            <img src="@item.PhotoUrl" style="width:48px;height:48px;object-fit:cover;border-radius:12px;box-shadow:0 1px 4px #ccc;">
+                        }
+                    </td>
+                    <td class="fw-bold">@item.FullName</td>
+                    <td>@item.Title</td>
+                    <td style="max-width:200px;word-break:break-word;">@item.Description</td>
+                    <td>@item.Skills</td>
+                    <td>@item.Experience</td>
+                    <td>@item.Goals</td>
+                    <td>
+                        <a href="mailto:@item.Email">@item.Email</a>
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.Instagram))
+                        {
+                            <a href="@item.Instagram" target="_blank">
+                                @item.Instagram.Replace("https://instagram.com/", "@")
+                            </a>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                                <i class="bi bi-pencil"></i> Düzenle
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm text-white">
+                                <i class="bi bi-info-circle"></i> Detay
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bu profili silmek istediğinize emin misiniz?');">
+                                <i class="bi bi-trash"></i> Sil
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap Icons eklenmediyse ekle -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />

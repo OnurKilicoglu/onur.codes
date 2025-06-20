@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "İletişim";
+}
+
+<style>
+    /* Sayfa düzeni için */
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .page-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    footer {
+        background-color: #0a0a23;
+        color: #fff;
+        text-align: center;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    .footer-link {
+        color: #00bfff;
+        text-decoration: none;
+    }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="page-wrapper">
+    <main>
+        <div class="container py-5" style="max-width:600px;">
+            <h2 class="fw-bold mb-3">İletişim</h2>
+            <p class="mb-4 text-secondary">Her türlü görüş, öneri veya iş birliği için bana mesaj gönderebilirsin.
+            </p>
+
+            @if (ViewBag.Success != null && ViewBag.Success)
+            {
+                <div class="alert alert-success">Mesajınız başarıyla gönderildi! Teşekkürler.</div>
+            }
+
+            <form asp-action="Contact" method="post" autocomplete="off">
+                <div class="mb-3">
+                    <label class="form-label">Adınız</label>
+                    <input type="text" name="Name" class="form-control" required maxlength="50" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">E-posta</label>
+                    <input type="email" name="Email" class="form-control" required maxlength="80" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mesajınız</label>
+                    <textarea name="Message" class="form-control" rows="5" required maxlength="500"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Gönder</button>
+            </form>
+
+            <div class="mt-5 text-secondary">
+                <b>E-posta:</b> <a href="mailto:onur@email.com">onur@email.com</a><br />
+                <b>Instagram:</b> <a href="https://instagram.com/onur.codes" target="_blank">@@onur.codes</a>
+            </div>
+        </div>
+    </main>
+
+   
+</div>

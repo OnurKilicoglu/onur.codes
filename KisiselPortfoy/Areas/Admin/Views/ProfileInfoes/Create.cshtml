@@ -1,0 +1,79 @@
+﻿@model KisiselPortfoy.Core.Entities.ProfileInfo
+
+@{
+    ViewData["Title"] = "Profil Oluştur";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Profil Oluştur</h2>
+<hr />
+<div class="row">
+    <div class="col-md-7 col-lg-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="FullName" class="form-label">Ad Soyad</label>
+                <input asp-for="FullName" class="form-control" placeholder="Örn: Onur Kılıçoğlu" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label">Başlık</label>
+                <input asp-for="Title" class="form-control" placeholder="Örn: Full Stack Web Developer" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Açıklama</label>
+                <textarea asp-for="Description" class="form-control" rows="2" placeholder="Kısa kişisel tanıtım"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Skills" class="form-label">Uzmanlıklar</label>
+                <input asp-for="Skills" class="form-control" placeholder="Örn: C#, ASP.NET Core, HTML, CSS, JS, MySQL, ..." />
+                <span asp-validation-for="Skills" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Experience" class="form-label">Deneyim</label>
+                <textarea asp-for="Experience" class="form-control" rows="2" placeholder="Kısa deneyim ve geçmiş"></textarea>
+                <span asp-validation-for="Experience" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Goals" class="form-label">Hedefler</label>
+                <textarea asp-for="Goals" class="form-control" rows="2" placeholder="Yazılımla ilgili hedeflerin"></textarea>
+                <span asp-validation-for="Goals" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">E-posta</label>
+                <input asp-for="Email" class="form-control" placeholder="onurkilicoglu54@gmail.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Instagram" class="form-label">Instagram</label>
+                <input asp-for="Instagram" class="form-control" placeholder="https://instagram.com/onur.codes" />
+                <span asp-validation-for="Instagram" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Profil Fotoğrafı</label>
+                <input type="file" name="photoFile" accept="image/*" class="form-control" />
+                <div class="form-text">.jpg veya .png uzantılı dosya yükleyebilirsiniz.</div>
+            </div>
+
+            <button type="submit" class="btn btn-success px-4">Kaydet</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Listeye Dön</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

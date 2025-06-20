@@ -1,0 +1,38 @@
+﻿@model KisiselPortfoy.Core.Entities.Project
+@{
+    ViewData["Title"] = "Proje Sil";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Projeyi Sil</h2>
+<hr />
+<div class="alert alert-danger">
+    <strong>Dikkat:</strong> Bu proje kalıcı olarak silinecek. Emin misin?
+</div>
+<dl class="row">
+    <dt class="col-sm-3">Başlık</dt>
+    <dd class="col-sm-9">@Model.Title</dd>
+
+    <dt class="col-sm-3">Açıklama</dt>
+    <dd class="col-sm-9">@Model.Description</dd>
+
+    <dt class="col-sm-3">Kapak Görseli</dt>
+    <dd class="col-sm-9">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Proje Görseli" style="max-width: 120px;" class="rounded" />
+        }
+    </dd>
+
+    <dt class="col-sm-3">Kod Dosyası</dt>
+    <dd class="col-sm-9">@Model.CodeFileUrl</dd>
+
+    <dt class="col-sm-3">Eklenme Tarihi</dt>
+    <dd class="col-sm-9">@Model.CreateDate.ToString("dd.MM.yyyy")</dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+</form>

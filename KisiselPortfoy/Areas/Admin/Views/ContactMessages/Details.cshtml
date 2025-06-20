@@ -1,0 +1,43 @@
+﻿@model KisiselPortfoy.Core.Entities.ContactMessage
+
+@{
+    ViewData["Title"] = "Details";
+	Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml"; // Layout dosyanızın yolu
+}
+
+<h1>İletişim Mesajları Detay</h1>
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SentDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SentDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    
+    <a class="btn btn-primary" asp-action="Index">Listeye Dön</a>
+</div>

@@ -1,0 +1,51 @@
+﻿@model List<KisiselPortfoy.Core.Entities.Project>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Tüm Projeler";
+}
+
+
+
+<div class="container py-5">
+    <h2 class="mb-4 fw-bold">Tüm Projelerim</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="project-image-card mb-3">
+                        @if (!string.IsNullOrEmpty(item.ImageUrl))
+                        {
+                            <img src="@item.ImageUrl" alt="@item.Title" class="project-img" />
+                        }
+                        <div class="project-overlay">
+                            <a href="/Home/ProjectDetails/@item.Id" class="project-detail-btn">
+                                <i class="bi bi-arrow-right"></i> Detay
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body px-1 pb-2">
+                        <h5 class="card-title fw-bold mb-2" style="font-size:1.19rem;">@item.Title</h5>
+                        <p class="card-text text-secondary mb-2" style="font-size:0.97rem;">@item.Description</p>
+                        <div class="mb-1 text-muted" style="font-size:0.93rem;">
+                            <i class="bi bi-calendar2-week"></i> @item.CreateDate.ToString("dd.MM.yyyy")
+                        </div>
+                        @if (!string.IsNullOrEmpty(item.CodeFileUrl))
+                        {
+                            <a href="@item.CodeFileUrl" target="_blank" class="btn btn-outline-success btn-sm mt-1" download>
+                                <i class="bi bi-download"></i> Kodları İndir
+                            </a>
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col">
+                <div class="alert alert-secondary">Henüz hiç proje eklenmedi.</div>
+            </div>
+        }
+    </div>
+</div>

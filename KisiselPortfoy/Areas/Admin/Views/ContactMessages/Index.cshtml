@@ -1,0 +1,33 @@
+﻿@model IEnumerable<KisiselPortfoy.Core.Entities.ContactMessage>
+@{
+    ViewData["Title"] = "İletişim Mesajları";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>İletişim Mesajları</h2>
+<table class="table table-bordered table-hover bg-white shadow-sm">
+    <thead>
+        <tr>
+            <th>Gönderen</th>
+            <th>E-posta</th>
+            <th>Mesaj</th>
+            <th>Tarih</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var msg in Model)
+        {
+            <tr>
+                <td>@msg.Name</td>
+                <td><a href="mailto:@msg.Email">@msg.Email</a></td>
+                <td>@(msg.Message.Length > 40 ? msg.Message.Substring(0, 40) + "..." : msg.Message)</td>
+                <td>@msg.SentDate.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@msg.Id" class="btn btn-sm btn-info text-white">Detay</a>
+                    <a asp-action="Delete" asp-route-id="@msg.Id" class="btn btn-sm btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

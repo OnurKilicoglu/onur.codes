@@ -1,0 +1,72 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - onur.codes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animate.css (isteğe bağlı animasyonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+
+        .main-header {
+            background: linear-gradient(100deg, #3843d0 0%, #51c0f7 100%);
+            color: #fff;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 8px 40px 0 rgba(60,70,130,0.12);
+        }
+
+        footer {
+            background: #181c2f;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-navbar">
+        <div class="navbar-content">
+            <a href="/" class="brand-logo">
+                <i class="fa-solid fa-code"></i>
+                <span>onur.codes</span>
+            </a>
+            <nav class="nav-links">
+                <a asp-controller="Home" asp-action="Index" class="nav-link">Anasayfa</a>
+                <a asp-controller="Home" asp-action="Projects" class="nav-link ">Projeler</a>
+                <a asp-controller="Home" asp-action="About" class="nav-link">Hakkımda</a>
+                <a asp-controller="Home" asp-action="Contact" class=" nav-link">İletişim</a>
+
+            </nav>
+            <button class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="mt-5 py-4 text-center">
+        <div>© @DateTime.Now.Year onur.codes | Tüm hakları saklıdır.</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@model KisiselPortfoy.Core.Entities.HomePageInfo
+@{
+    ViewData["Title"] = "Anasayfa Üst Bölümü Ekle";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Anasayfa Üst Bölümü Ekle</h2>
+<hr />
+<form asp-action="Create" enctype="multipart/form-data" class="row g-3">
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <div class="col-md-6">
+        <label asp-for="WelcomeTitle" class="form-label"></label>
+        <input asp-for="WelcomeTitle" class="form-control" />
+        <span asp-validation-for="WelcomeTitle" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="WelcomeText" class="form-label"></label>
+        <input asp-for="WelcomeText" class="form-control" />
+        <span asp-validation-for="WelcomeText" class="text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="ButtonText" class="form-label"></label>
+        <input asp-for="ButtonText" class="form-control" />
+        <span asp-validation-for="ButtonText" class="text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="ButtonUrl" class="form-label"></label>
+        <input asp-for="ButtonUrl" class="form-control" />
+        <span asp-validation-for="ButtonUrl" class="text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Görsel Yükle</label>
+        <input type="file" name="imageFile" class="form-control" accept="image/*" />
+    </div>
+    <div class="col-12 mt-3">
+        <button type="submit" class="btn btn-success"><i class="bi bi-save"></i> Kaydet</button>
+        <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

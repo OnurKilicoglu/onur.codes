@@ -1,0 +1,31 @@
+﻿@model KisiselPortfoy.Core.Entities.HomePageInfo
+@{
+    ViewData["Title"] = "Sil";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Anasayfa Üst Bölümü Sil</h2>
+<hr />
+<h5>Bu kaydı silmek istediğinize emin misiniz?</h5>
+<dl class="row">
+    <dt class="col-sm-2">Başlık</dt>
+    <dd class="col-sm-10">@Model.WelcomeTitle</dd>
+    <dt class="col-sm-2">Açıklama</dt>
+    <dd class="col-sm-10">@Model.WelcomeText</dd>
+    <dt class="col-sm-2">Buton Metni</dt>
+    <dd class="col-sm-10">@Model.ButtonText</dd>
+    <dt class="col-sm-2">Buton Linki</dt>
+    <dd class="col-sm-10">@Model.ButtonUrl</dd>
+    <dt class="col-sm-2">Görsel</dt>
+    <dd class="col-sm-10">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="rounded shadow" style="max-width:100px;" />
+        }
+    </dd>
+</dl>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+</form>

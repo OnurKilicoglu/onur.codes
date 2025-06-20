@@ -1,0 +1,11 @@
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\bin\Debug\net9.0\KisiselPortfoy.Core.deps.json
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\bin\Debug\net9.0\KisiselPortfoy.Core.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\bin\Debug\net9.0\KisiselPortfoy.Core.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.AssemblyInfoInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.AssemblyInfo.cs
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.csproj.CoreCompileInputs.cache
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\refint\KisiselPortfoy.Core.dll
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\KisiselPortfoy.Core.pdb
+C:\Users\onurk\source\repos\KisiselPortfoy\KisiselPortfoy.Core\obj\Debug\net9.0\ref\KisiselPortfoy.Core.dll
