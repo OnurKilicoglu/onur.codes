@@ -10,6 +10,7 @@ using KisiselPortfoy.DataAccess.Context;
 
 namespace KisiselPortfoy.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class HomePageInfoesController : Controller
     {
