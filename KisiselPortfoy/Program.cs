@@ -14,6 +14,13 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+// builder.Services.AddAuthentication ve .AddCookie satırlarını EKLE!
+builder.Services.AddAuthentication("MyCookieAuth")
+    .AddCookie("MyCookieAuth", options =>
+    {
+        options.LoginPath = "/Admin/Admin/Login"; // Giriş sayfası yolu
+        options.AccessDeniedPath = "/Admin/Admin/Login"; // Yetkisiz erişim
+    });
 
 var app = builder.Build();
 
@@ -27,10 +34,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
 app.UseSession();
-
-
+app.UseAuthentication();   // <--- BU ÖNCE GELECEK
+app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapStaticAssets();
