@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KisiselPortfoy.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class ContactMessagesController : Controller
     {
@@ -39,6 +40,7 @@ namespace KisiselPortfoy.Areas.Admin.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
             var msg = _context.ContactMessages.Find(id);
