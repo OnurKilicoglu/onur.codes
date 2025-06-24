@@ -3,6 +3,7 @@ using KisiselPortfoy.DataAccess.Context;
 
 namespace KisiselPortfoy.Web.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class AdminController : Controller
     {
@@ -13,6 +14,7 @@ namespace KisiselPortfoy.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
